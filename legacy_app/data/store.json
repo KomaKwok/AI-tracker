@@ -1,0 +1,233 @@
+{
+  "sources": [
+    {
+      "id": "claude-release-notes",
+      "name": "Claude Release Notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "fallbackUrls": [
+        "https://docs.anthropic.com/en/release-notes/overview"
+      ],
+      "sitemapUrl": "https://docs.anthropic.com/sitemap.xml",
+      "region": "Global",
+      "sourceType": "Official",
+      "priority": 10,
+      "fetchStrategy": "release-notes-html",
+      "active": true,
+      "lastFetchedAt": "2026-03-18T09:36:09.033Z",
+      "lastFetchStatus": "empty",
+      "lastFetchMessage": "No verified official updates were available from the configured entries"
+    },
+    {
+      "id": "openai-news-rss",
+      "name": "OpenAI News RSS",
+      "url": "https://openai.com/news/rss.xml",
+      "feedUrls": [
+        "https://openai.com/news/rss.xml"
+      ],
+      "region": "Global",
+      "sourceType": "Official",
+      "priority": 10,
+      "fetchStrategy": "rss-feed",
+      "active": true,
+      "lastFetchedAt": "2026-03-18T09:37:24.848Z",
+      "lastFetchStatus": "success",
+      "lastFetchMessage": "Stored 7 verified signals",
+      "lastSuccessfulAt": "2026-03-18T09:37:24.848Z"
+    },
+    {
+      "id": "openai-api-changelog",
+      "name": "OpenAI API Changelog",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "fallbackUrls": [
+        "https://platform.openai.com/docs/changelog"
+      ],
+      "sitemapUrl": "https://developers.openai.com/sitemap.xml",
+      "region": "Global",
+      "sourceType": "Official",
+      "priority": 10,
+      "fetchStrategy": "docs-changelog-html",
+      "active": true,
+      "lastFetchedAt": "2026-03-18T09:37:25.514Z",
+      "lastFetchStatus": "error",
+      "lastFetchMessage": "https://developers.openai.com/api/docs/changelog -> Fetch failed for https://developers.openai.com/api/docs/changelog: 403 | https://platform.openai.com/docs/changelog -> Fetch failed for https://platform.openai.com/docs/changelog: 403"
+    },
+    {
+      "id": "gemini-api-changelog",
+      "name": "Gemini API Changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "fallbackUrls": [
+        "https://ai.google.dev/gemini-api/docs/changelog?hl=en"
+      ],
+      "sitemapUrl": "https://ai.google.dev/sitemap.xml",
+      "region": "Global",
+      "sourceType": "Official",
+      "priority": 9,
+      "fetchStrategy": "docs-changelog-html",
+      "active": true,
+      "lastFetchedAt": "2026-03-18T09:37:40.518Z",
+      "lastFetchStatus": "error",
+      "lastFetchMessage": "Gemini API Changelog timed out after 15s"
+    }
+  ],
+  "signals": [
+    {
+      "id": "3eb015dd55fd",
+      "title": "Introducing GPT-5.4 mini and nano",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "sourceName": "OpenAI News RSS",
+      "sourceType": "Official",
+      "company": "OpenAI",
+      "region": "Global",
+      "publishedAt": "2026-03-17T10:00:00.000Z",
+      "fetchedAt": "2026-03-18T09:36:20.555Z",
+      "summary": "4 mini and nano are smaller, faster versions of GPT-5.",
+      "tags": [
+        "API"
+      ],
+      "firstHandScore": 93,
+      "heatScore": 85,
+      "signalScore": 92,
+      "rawContentSnippet": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
+      "dedupeHash": "3eb015dd55fde878617c38f4e1e153cd7f91a7ea"
+    },
+    {
+      "id": "a1dbebfde2e5",
+      "title": "Equipping workers with insights about compensation",
+      "url": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
+      "sourceName": "OpenAI News RSS",
+      "sourceType": "Official",
+      "company": "OpenAI",
+      "region": "Global",
+      "publishedAt": "2026-03-17T00:00:00.000Z",
+      "fetchedAt": "2026-03-18T09:36:31.281Z",
+      "summary": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
+      "tags": [
+        "API"
+      ],
+      "firstHandScore": 93,
+      "heatScore": 55,
+      "signalScore": 78,
+      "rawContentSnippet": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
+      "dedupeHash": "a1dbebfde2e54b005b19ab09d353046aad1c2170"
+    },
+    {
+      "id": "e6b7c9ae35da",
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "url": "https://openai.com/index/rakuten",
+      "sourceName": "OpenAI News RSS",
+      "sourceType": "Official",
+      "company": "OpenAI",
+      "region": "Global",
+      "publishedAt": "2026-03-11T13:00:00.000Z",
+      "fetchedAt": "2026-03-18T09:36:41.994Z",
+      "summary": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
+      "tags": [
+        "API"
+      ],
+      "firstHandScore": 93,
+      "heatScore": 55,
+      "signalScore": 72,
+      "rawContentSnippet": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
+      "dedupeHash": "e6b7c9ae35dab61a61d751782c989da7ad973a70"
+    },
+    {
+      "id": "a5a19cc311d3",
+      "title": "Designing AI agents to resist prompt injection",
+      "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "sourceName": "OpenAI News RSS",
+      "sourceType": "Official",
+      "company": "OpenAI",
+      "region": "Global",
+      "publishedAt": "2026-03-11T11:30:00.000Z",
+      "fetchedAt": "2026-03-18T09:36:52.702Z",
+      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "tags": [
+        "API"
+      ],
+      "firstHandScore": 93,
+      "heatScore": 55,
+      "signalScore": 75,
+      "rawContentSnippet": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "dedupeHash": "a5a19cc311d38261cef3416a4dfe3ea8d3fa2633"
+    },
+    {
+      "id": "3a81c2077310",
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "url": "https://openai.com/index/wayfair",
+      "sourceName": "OpenAI News RSS",
+      "sourceType": "Official",
+      "company": "OpenAI",
+      "region": "Global",
+      "publishedAt": "2026-03-11T11:00:00.000Z",
+      "fetchedAt": "2026-03-18T09:37:03.424Z",
+      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+      "tags": [
+        "API"
+      ],
+      "firstHandScore": 93,
+      "heatScore": 55,
+      "signalScore": 72,
+      "rawContentSnippet": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+      "dedupeHash": "3a81c207731021dcb29be491f60d78a9ad4711ce"
+    },
+    {
+      "id": "9d5f8683336d",
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "url": "https://openai.com/index/equip-responses-api-computer-environment",
+      "sourceName": "OpenAI News RSS",
+      "sourceType": "Official",
+      "company": "OpenAI",
+      "region": "Global",
+      "publishedAt": "2026-03-11T11:00:00.000Z",
+      "fetchedAt": "2026-03-18T09:37:14.122Z",
+      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "tags": [
+        "API"
+      ],
+      "firstHandScore": 93,
+      "heatScore": 85,
+      "signalScore": 79,
+      "rawContentSnippet": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "dedupeHash": "9d5f8683336de988165e0401fe255d5535a1128d"
+    },
+    {
+      "id": "ef09c0f1d623",
+      "title": "Improving instruction hierarchy in frontier LLMs",
+      "url": "https://openai.com/index/instruction-hierarchy-challenge",
+      "sourceName": "OpenAI News RSS",
+      "sourceType": "Official",
+      "company": "OpenAI",
+      "region": "Global",
+      "publishedAt": "2026-03-10T11:00:00.000Z",
+      "fetchedAt": "2026-03-18T09:37:24.848Z",
+      "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
+      "tags": [
+        "API"
+      ],
+      "firstHandScore": 93,
+      "heatScore": 55,
+      "signalScore": 66,
+      "rawContentSnippet": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
+      "dedupeHash": "ef09c0f1d6231270ebb507608bdea56cbb8456b2"
+    }
+  ],
+  "trendSummary": {
+    "generatedAt": "2026-03-18T09:37:40.518Z",
+    "last7d": [
+      {
+        "label": "API",
+        "count": 6,
+        "summary": "API signals are accelerating across 1 company sources."
+      }
+    ],
+    "last30d": [
+      {
+        "label": "API",
+        "count": 7,
+        "summary": "API signals are accelerating across 1 company sources."
+      }
+    ],
+    "chinaVsGlobal": "Global sources are still leading the current signal flow, while China remains concentrated around official model and assistant updates and global coverage shows more API, agent, and open ecosystem activity."
+  },
+  "lastUpdatedAt": "2026-03-18T09:37:40.519Z"
+}
